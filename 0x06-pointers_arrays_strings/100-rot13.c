@@ -1,4 +1,4 @@
-vi #include "main.h"
+#include "main.h"
 /**
  * *rot13 - function
  * @c: input
@@ -24,4 +24,4 @@ char *rot13(char *c)
 		c++;
 	}
 	return (ptr);
-}
+}}
